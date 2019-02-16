@@ -1,0 +1,24 @@
+@import '~normalize.css';
+@import 'sass/variables';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: $red;
+
+  header {
+    font-size: 18px;
+  }
+
+  a {
+    color: $blue;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
