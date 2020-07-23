@@ -67,7 +67,16 @@ module.exports = {
           {
             loader: "babel-loader", //babel compiles es2015/6/7 (new) javascript to 'old' javascript for old browsers
             options: {
-              presets: ["@babel/preset-env"] //read more about presets, should we be using 'es2015'?
+              presets: [
+                [
+                  "@babel/preset-env",
+                  {
+                    targets: {
+                      esmodules: true
+                    }
+                  }
+                ]
+              ] //read more about presets, should we be using 'es2015'?
             }
           }
         ]
