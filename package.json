@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "datamaps": "^0.5.9",
     "jquery": "^3.5.1",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.14.7"
