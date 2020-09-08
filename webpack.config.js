@@ -97,7 +97,7 @@ module.exports = {
             options: {
               // you can specify a publicPath here
               // by default it use publicPath in webpackOptions.output
-              publicPath: "../"
+              // publicPath: "../"
             }
           },
           "css-loader",
@@ -111,7 +111,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "build/fonts/",
+              outputPath: "fonts/",
               esModule: false
             }
           }
