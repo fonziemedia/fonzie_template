@@ -9,7 +9,7 @@
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
-    "copy-webpack-plugin": "^6.0.3",
+    "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^7.1.2",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^6.1.0",
@@ -18,7 +18,7 @@
     "node-sass": "^9.0.0",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.43.0",
+    "webpack": "^5.105.4",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^5.2.2"
   },
